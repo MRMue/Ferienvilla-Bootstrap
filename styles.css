@@ -1,0 +1,10 @@
+.container-fluid {
+   text-align: center;
+}
+
+.nav-element {
+    color: rgb(75, 11, 106) !important;
+    background-color: rgb(203, 172, 232) !important;
+    margin-bottom: 1rem;
+}
+
