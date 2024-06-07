@@ -1,5 +1,15 @@
+h3 {
+  margin-top: 1em !important;
+}
 
-img {
+.gallery {
+  height: 50vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  /*object-position: center;*/
+  height: 50%;
   width: 100%;
-  /*border-radius: 50%;*/
+  /*overflow: hidden;*/
 }
