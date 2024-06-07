@@ -15,7 +15,7 @@
       <h1>Kontakt</h1>
     </div>
     <nav class="container nav nav-pills nav-fill">
-      <a class="nav-link" href="test.html">Startseite</a>
+      <a class="nav-link" href="index.html">Startseite</a>
       <a class="nav-link active disabled" href="contact.html">Kontakt</a>
     </nav>
   </header>
@@ -30,41 +30,28 @@
         00000 Ausgedachtern
       </address>
     </div>
-      <form>
-        <div class="row mb-3">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3">
-          </div>
-        </div>
-        <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-          <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword3">
-          </div>
-        </div>
-      </form>
-      <div class="container">
+    <div class="container">
       <h3>Kontaktformular</h3>
       <form class="container">
-        <div class="row"><label class="form-label" for="name">Name:</label><input class="form-control" type="text"
-            id="name" name="name" value="Maxi Muster"></div>
-        <div class="row"><label class="form-label" for="street">Straße:</label><input class="form-control" type="text"
-            id="street" name="street" value="Musterstraße 1"></div>
-        <div class="row"><label class="form-label" for="city">Ort:</label><input class="form-control" type="text"
-            id="city" name="city" value="12345 Musterstadt"></div>
-        <div class="row"><label class="form-label" for="arrival">Ankunft:</label><input class="form-control" type="text"
-            id="arrival" name="arrival" value="01.01.2025"></div>
-        <div class="row"><label class="form-label" for="departure">Abreise:</label><input class="form-control"
-            type="text" id="departure" name="departure" value="15.01.2025"></div>
-        <div class="row"><label class="form-label" for="pets">Haustiere:</label><select name="pets" id="pets">
+        <div class="row"><label class="col-4 form-label" for="name">Name:</label>
+        <div class="col-4"><input class="form-control" type="text" id="name" name="name" value="Maxi Muster"></div></div>
+        <div class="row"><label class="col-4 form-label" for="street">Straße:</label>
+        <div class="col-4"><input class="form-control" type="text" id="street" name="street" value="Musterstraße 1"></div></div>
+        <div class="row"><label class="col-4 form-label" for="city">Ort:</label>
+        <div class="col-4"><input class="form-control" type="text" id="city" name="city" value="12345 Musterstadt"></div></div>
+        <div class="row"><label class="col-4 form-label" for="arrival">Ankunft:</label>
+        <div class="col-4"><input class="form-control" type="text" id="arrival" name="arrival" value="01.01.2025"></div></div>
+        <div class="row"><label class="col-4 form-label" for="departure">Abreise:</label>
+        <div class="col-4"><input class="form-control" type="text" id="departure" name="departure" value="15.01.2025"></div></div>
+        <div class="row"><label class="col-4 form-label" for="pets">Haustiere:</label>
+        <div class="col-4"><select class="form-control" name="pets" id="pets">
             <option value="no">nein</option>
             <option value="yes">ja</option>
-          </select></div>
-        <div><label class="form-check-label" for="check">Datenschutzerklärung gelesen:</label></div>
-        <div><input class="form-check-input" type="checkbox" value="" id="check">
-        </div>
-        <div><input type="submit" value="Absenden"> </div>
+          </select></div></div>
+        <div class="row"><label class="col-4 form-check-label" for="check">Datenschutzerklärung gelesen:</label>
+        <div class="col-4"><input class="form-check-input" type="checkbox" value="" id="check">
+        </div></div>
+        <div class="row"><button type="submit" class="btn btn-primary col-4">Absenden</button></div>
       </form>
     </div>
     <div class="container">
