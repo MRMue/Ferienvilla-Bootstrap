@@ -1,15 +1,28 @@
+.nav {
+  margin-bottom: 1em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+h1 {
+  background-color: bisque;
+}
+
 h3 {
+  color: blueviolet !important;
   margin-top: 1em !important;
 }
 
-.gallery {
-  height: 50vh;
+.carousel {
+  background-color: bisque;
 }
 
 .carousel-item img {
-  object-fit: cover;
-  /*object-position: center;*/
-  height: 50%;
+  object-fit: scale-down;
+  height: 68vh;
   width: 100%;
-  /*overflow: hidden;*/
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
 }
